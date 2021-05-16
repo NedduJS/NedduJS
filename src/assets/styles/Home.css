@@ -1,0 +1,63 @@
+.homePage {
+  height: 90vh;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.name {
+  margin-bottom: 1.5rem;
+  font-size: 4.5rem;
+}
+
+.fotoPerfil {
+  width: 60vw;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.contact_me {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background: #3551d5;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.redes {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.redes img {
+  width: 4rem;
+}
+
+@media (min-width: 530px) {
+  .fotoPerfil {
+    display: none;
+  }
+
+  .homePage {
+    width: 50vw;
+    margin-left: 20rem;
+    align-items: flex-start;
+    padding-top: 10rem;
+  }
+
+  .name {
+    font-size: 6rem;
+  }
+
+  .contact_me {
+    margin-top: 2rem;
+  }
+
+  .redes {
+    justify-content: space-between;
+  }
+}

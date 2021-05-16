@@ -1,0 +1,46 @@
+header {
+  width: 100vw;
+  height: 10vh;
+  margin-top: 0.5rem;
+}
+
+.neddu {
+  border-bottom: solid #3550d5a4 1px;
+}
+
+a:hover {
+  background-color: #3550d5a4;
+}
+
+header img,
+.home,
+.blog {
+  display: none;
+}
+
+header Link,
+a {
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 700px) {
+  header img,
+  .home,
+  .blog {
+    display: flex;
+  }
+
+  header {
+    width: auto;
+  }
+}
