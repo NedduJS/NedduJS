@@ -51,6 +51,12 @@
 
   .name {
     font-size: 6rem;
+    font-weight: bold;
+  }
+
+  .industrial,
+  .frontend {
+    font-size: 3rem;
   }
 
   .contact_me {
@@ -58,6 +64,7 @@
   }
 
   .redes {
+    width: 40%;
     justify-content: space-between;
   }
 }
