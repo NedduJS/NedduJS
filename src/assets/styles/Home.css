@@ -46,25 +46,27 @@
     width: 50vw;
     margin-left: 20rem;
     align-items: flex-start;
-    padding-top: 10rem;
+    padding-top: 12rem;
   }
 
   .name {
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: bold;
   }
 
   .industrial,
   .frontend {
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: bold;
   }
 
   .contact_me {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
   }
 
   .redes {
-    width: 40%;
+    width: 35%;
     justify-content: space-between;
   }
 }

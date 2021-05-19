@@ -1,7 +1,10 @@
 header {
   width: 100vw;
   height: 10vh;
-  margin-top: 0.5rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: #131313;
 }
 
 .neddu {
@@ -18,8 +21,8 @@ header img,
   display: none;
 }
 
-header Link,
 a {
+  height: fit-content;
   padding: 1rem;
   text-decoration: none;
   color: white;
@@ -29,6 +32,8 @@ a {
 }
 
 .options {
+  margin-top: 0.5rem;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
 }
