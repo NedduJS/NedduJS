@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Link as Redirec } from 'react-scroll';
 
 import '../assets/styles/components/Header.css';
 
@@ -9,11 +10,29 @@ const Header = () => {
       <img src='' alt='' />
       <div className='options'>
         <Link to='/' className='home'>
-          Home
+          <Redirec
+            activeClass='active'
+            to='homePage'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            // eslint-disable-next-line react/jsx-closing-bracket-location
+          >
+            Home
+          </Redirec>
         </Link>
-        <Link to='.' className='header-about'>
+        <Redirec
+          activeClass='active'
+          to='about'
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+          // eslint-disable-next-line react/jsx-closing-bracket-location
+          className='header-about'>
           About me
-        </Link>
+        </Redirec>
         <Link to='.' className='portfolio'>
           Portfolio
         </Link>

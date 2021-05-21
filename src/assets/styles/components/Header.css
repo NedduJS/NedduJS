@@ -31,11 +31,19 @@ a {
   border-radius: 0.5rem;
 }
 
+.header-about {
+  cursor: pointer;
+}
+
 .options {
   margin-top: 0.5rem;
   height: 10vh;
   display: flex;
   justify-content: space-around;
+}
+
+.home {
+  padding: 0;
 }
 
 @media (min-width: 700px) {
