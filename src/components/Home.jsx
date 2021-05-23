@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link as Redirec } from 'react-scroll';
 
 import '../assets/styles/Home.css';
 import photo from '../assets/static/perfilMin.jpg';
@@ -11,9 +11,17 @@ const Home = () => {
       <p className='industrial'>Industrial engineering student</p>
       <p className='frontend'>Frontend developer</p>
       <img className='fotoPerfil' src={photo} alt='' />
-      <Link to='/' className='contact_me'>
+      <Redirec
+        activeClass='active'
+        to='contactme'
+        className='contact_me'
+        spy={true}
+        smooth={true}
+        offset={-70}
+        // eslint-disable-next-line react/jsx-closing-bracket-location
+        duration={500}>
         Contact me
-      </Link>
+      </Redirec>
       <div className='redes'>
         <img
           src='https://img.icons8.com/android/50/ffffff/twitter.png'
