@@ -1,0 +1,49 @@
+.proyectItem {
+  position: relative;
+  width: 35rem;
+  background-color: #242526;
+  border-radius: 2rem;
+  padding-bottom: 6rem;
+}
+
+.proyectItem__head {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 1rem 0;
+  background-color: #203080;
+  text-align: center;
+}
+
+.proyectItem__title {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.proyectItem__tech {
+  display: flex;
+  justify-content: space-around;
+}
+
+.proyectItem__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.proyectItem__description {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.proyectItem__buttons {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.proyectItem__button {
+  background-color: #3551d5;
+  padding: 1rem;
+}

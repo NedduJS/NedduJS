@@ -34,6 +34,11 @@
   justify-content: space-around;
 }
 
+.redes a:hover {
+  opacity: 0.5;
+  background-color: inherit;
+}
+
 .redes img {
   width: 4rem;
 }
@@ -69,5 +74,9 @@
   .redes {
     width: 35%;
     justify-content: space-between;
+  }
+
+  .redes a {
+    padding: 0;
   }
 }

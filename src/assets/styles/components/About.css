@@ -1,9 +1,9 @@
 .about {
-  height: 90vh;
+  height: 80vh;
 }
 
 .aboutText {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .aboutTitle,
@@ -18,11 +18,7 @@
   border-bottom: #3551d5 solid 1.5px;
 }
 
-.profileImg {
-  display: none;
-}
-
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .about {
     display: flex;
     justify-content: center;
@@ -30,7 +26,10 @@
   }
 
   .aboutBody {
-    width: 40%;
+    width: 50%;
+  }
+  .aboutText {
+    font-size: 2.5rem;
   }
   .profileImg {
     height: 60%;

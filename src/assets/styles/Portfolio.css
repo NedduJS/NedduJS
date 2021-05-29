@@ -1,0 +1,14 @@
+.portfolio__title {
+  width: fit-content;
+  font-size: 3.6rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: #3551d5 solid 1.5px;
+}
+
+.portfolio__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
