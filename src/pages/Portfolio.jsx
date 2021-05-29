@@ -68,7 +68,6 @@ const Portfolio = () => {
       techName: 'Responsive Design',
       techImage: responsiveImage,
     },
-    //https://pedroklepa.com/
   ];
   const portfolioList = [
     {
