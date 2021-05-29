@@ -7,9 +7,15 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+  },
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './',
+    hot: true,
   },
   module: {
     rules: [
@@ -31,7 +37,7 @@ module.exports = {
         use: [{ loader: MiniCssExtractPlugin.loader }, 'css-loader'],
       },
       {
-        test: /\.(png|jpe?g|gif)$/,
+        test: /\.(svg|png|jpe?g|gif)$/,
         use: [
           {
             loader: 'file-loader',

@@ -1,8 +1,11 @@
+/* eslint-disable react/jsx-closing-bracket-location */
 import React from 'react';
 import { Link as Redirec } from 'react-scroll';
 
 import '../assets/styles/Home.css';
 import photo from '../assets/static/perfilMin.jpg';
+import githubImage from '../assets/static/icon_github.svg';
+import linkedinImage from '../assets/static/icon_linkedin.svg';
 
 const Home = () => {
   return (
@@ -23,18 +26,21 @@ const Home = () => {
         Contact me
       </Redirec>
       <div className='redes'>
-        <img
-          src='https://img.icons8.com/android/50/ffffff/twitter.png'
-          alt='Twitter icon'
-        />
-        <img
-          src='https://img.icons8.com/android/24/ffffff/linkedin.png'
-          alt='LinkedIn icon'
-        />
-        <img
-          src='https://img.icons8.com/material-sharp/24/ffffff/github.png'
-          alt='GitHub icon'
-        />
+        <a href='https://twitter.com/NedduJS' target='_blank' rel='noreferrer'>
+          <img
+            src='https://img.icons8.com/android/50/ffffff/twitter.png'
+            alt='Twitter icon'
+          />
+        </a>
+        <a
+          href='https://www.linkedin.com/in/nestor-eduardo-mamani-pantoja/'
+          target='_blank'
+          rel='noreferrer'>
+          <img src={linkedinImage} alt='LinkedIn icon' />
+        </a>
+        <a href='https://github.com/NedduJS' target='_blank' rel='noreferrer'>
+          <img src={githubImage} alt='GitHub icon' />
+        </a>
       </div>
     </section>
   );
