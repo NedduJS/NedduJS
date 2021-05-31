@@ -93,7 +93,7 @@ const Portfolio = () => {
       techArray: [TechStack[2], TechStack[9], TechStack[10]],
       websiteImage: videoPlayerImg,
       description:
-        'Video player using the Youtube API with time bar, play/pause buttons and volumen control \n',
+        'Video player built using the Youtube API with time bar, play/pause buttons and volumen control \n',
       website: 'https://neddujs.github.io/videoPlayer/',
       code: 'https://github.com/NedduJS/videoPlayer',
     },
