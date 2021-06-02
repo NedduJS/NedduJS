@@ -10,7 +10,7 @@ const About = () => {
         <p className='aboutTitle'>About me</p>
         <p className='aboutText'>
           Tech lover, passionate about solving problems with innovation. I like
-          working in proyects with purpose and I am bias to action.
+          working in projects with purpose and I am bias to action.
           <br />
           <br />I have experience building static and dynamic web applications
           with HTML, CSS, JS and React.
