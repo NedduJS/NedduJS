@@ -33,9 +33,10 @@ const ContactMe = () => {
         </a>
       </div>
       <form
-        action='https://postmail.invotes.com/send'
-        method='post'
+        method='POST'
         id='email_form'
+        data-netlify='true'
+        name='contact'
         // eslint-disable-next-line react/jsx-closing-bracket-location
         className='email_form'>
         <input
