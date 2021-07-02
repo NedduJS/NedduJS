@@ -74,13 +74,7 @@ const ContactMe = () => {
           name='error_url'
           value='.?message=Email+could+not+be+sent.&isError=1'
         />
-
-        <input
-          className='contactme_button'
-          id='submit_form'
-          type='submit'
-          value='Send'
-        />
+        <button className='contactme_button' type="submit">Send</button>
       </form>
     </div>
   );
