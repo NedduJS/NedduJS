@@ -59,21 +59,6 @@ const ContactMe = () => {
           placeholder='Message'
           required
         />
-        <input
-          type='hidden'
-          name='access_token'
-          value='q3pkirtsk37jo8phhwl6xacr'
-        />
-        <input
-          type='hidden'
-          name='success_url'
-          value='.?message=Email+Successfully+Sent%21&isError=0'
-        />
-        <input
-          type='hidden'
-          name='error_url'
-          value='.?message=Email+could+not+be+sent.&isError=1'
-        />
         <button className='contactme_button' type="submit">Send</button>
       </form>
     </div>
