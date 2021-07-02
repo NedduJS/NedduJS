@@ -35,7 +35,7 @@ const ContactMe = () => {
       <form
         method='POST'
         id='email_form'
-        data-netlify='true'
+        netlify
         name='contact'
         // eslint-disable-next-line react/jsx-closing-bracket-location
         className='email_form'>
