@@ -33,7 +33,7 @@ const ContactMe = () => {
         </a>
       </div>
       <form
-        data-netlify={true}
+        data-netlify='true'
         method='post'
         onSubmit='submit'
         name='contact'
