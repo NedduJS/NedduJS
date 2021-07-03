@@ -38,6 +38,7 @@ const ContactMe = () => {
         method='post'
         onSubmit='submit'
         className='email_form'>
+        <input type='hidden' name='form-name' value='contact_neddu' />
         <label htmlFor='subject' className='label'>
           <input
             className='contactme_subject'
