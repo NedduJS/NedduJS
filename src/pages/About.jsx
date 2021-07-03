@@ -9,7 +9,7 @@ const About = () => {
       <div className='aboutBody'>
         <p className='aboutTitle'>About me</p>
         <p className='aboutText'>
-          Tech lover, passionate about solving problems with innovation. I like
+          Tech lover, passionate about solving problems with code. I like
           working in projects with purpose and I am bias to action.
           <br />
           <br />I have experience building static and dynamic web applications
