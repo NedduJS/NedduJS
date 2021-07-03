@@ -32,8 +32,8 @@ const ContactMe = () => {
           />
         </a>
       </div>
-      {/* <form
-        data-netlify='true'
+      <form
+        data-netlify={true}
         method='post'
         onSubmit='submit'
         name='contact'
@@ -74,21 +74,6 @@ const ContactMe = () => {
         <button className='contactme_button' type='submit'>
           Send
         </button>
-      </form> */}
-      <form name='contact' netlify>
-        <p>
-          <label>
-            <input type='text' name='name' />
-          </label>
-        </p>
-        <p>
-          <label>
-            <input type='email' name='email' />
-          </label>
-        </p>
-        <p>
-          <button type='submit'>Send</button>
-        </p>
       </form>
     </div>
   );
