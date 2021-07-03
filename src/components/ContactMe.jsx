@@ -33,10 +33,10 @@ const ContactMe = () => {
         </a>
       </div>
       <form
-        data-netlify='true'
+        netlify
         method='post'
         onSubmit='submit'
-        name='contact'
+        name='contact_neddu'
         className='email_form'>
         <input type='hidden' name='form-name' value='contact' />
         <div>
