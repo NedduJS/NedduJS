@@ -20,6 +20,11 @@
   align-items: center;
 }
 
+.label {
+  width: 100%;
+  height: fit-content;
+}
+
 .contactme_subject,
 .contactme_email,
 .contactme_message {

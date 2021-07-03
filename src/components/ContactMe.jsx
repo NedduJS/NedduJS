@@ -32,34 +32,37 @@ const ContactMe = () => {
           />
         </a>
       </div>
-      <form
-        method='POST'
-        id='email_form'
-        netlify
-        name='contact'
-        // eslint-disable-next-line react/jsx-closing-bracket-location
-        className='email_form'>
-        <input
-          className='contactme_subject'
-          type='text'
-          name='subject'
-          placeholder='Subject'
-          required
-        />
-        <input
-          className='contactme_email'
-          type='text'
-          name='reply_to'
-          placeholder='Your Email'
-          required
-        />
-        <textarea
-          className='contactme_message'
-          name='text'
-          placeholder='Message'
-          required
-        />
-        <button className='contactme_button' type="submit">Send</button>
+      <form netlify name='contact' className='email_form'>
+        <label htmlFor='subject' className='label'>
+          <input
+            className='contactme_subject'
+            type='text'
+            name='subject'
+            placeholder='Subject'
+            required
+          />
+        </label>
+        <label htmlFor='email' className='label'>
+          <input
+            className='contactme_email'
+            type='text'
+            name='reply_to'
+            placeholder='Your Email'
+            required
+          />
+        </label>
+        <label htmlFor='message' className='label'>
+          <textarea
+            className='contactme_message'
+            name='text'
+            placeholder='Message'
+            required
+          />
+        </label>
+
+        <button className='contactme_button' type='submit'>
+          Send
+        </button>
       </form>
     </div>
   );
