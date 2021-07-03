@@ -33,44 +33,37 @@ const ContactMe = () => {
         </a>
       </div>
       <form
+        name='contact_neddu'
         netlify
         method='post'
         onSubmit='submit'
-        name='contact_neddu'
         className='email_form'>
-        <input type='hidden' name='form-name' value='contact' />
-        <div>
-          <label htmlFor='subject' className='label'>
-            <input
-              className='contactme_subject'
-              type='text'
-              name='subject'
-              placeholder='Subject'
-              required
-            />
-          </label>
-        </div>
-        <div>
-          <label htmlFor='email' className='label'>
-            <input
-              className='contactme_email'
-              type='email'
-              name='reply_to'
-              placeholder='Your Email'
-              required
-            />
-          </label>
-        </div>
-        <div>
-          <label htmlFor='message' className='label'>
-            <textarea
-              className='contactme_message'
-              name='text'
-              placeholder='Message'
-              required
-            />
-          </label>
-        </div>
+        <label htmlFor='subject' className='label'>
+          <input
+            className='contactme_subject'
+            type='text'
+            name='subject'
+            placeholder='Subject'
+            required
+          />
+        </label>
+        <label htmlFor='email' className='label'>
+          <input
+            className='contactme_email'
+            type='email'
+            name='reply_to'
+            placeholder='Your Email'
+            required
+          />
+        </label>
+        <label htmlFor='message' className='label'>
+          <textarea
+            className='contactme_message'
+            name='text'
+            placeholder='Message'
+            required
+          />
+        </label>
         <button className='contactme_button' type='submit'>
           Send
         </button>
