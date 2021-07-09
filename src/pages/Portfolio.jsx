@@ -110,7 +110,7 @@ const Portfolio = () => {
 
   return (
     <div className='portfolio'>
-      <p className='portfolio__title'>Proyects</p>
+      <p className='portfolio__title'>Projects</p>
       <div className='portfolio__list'>
         {portfolioList.map((item, index) => {
           return <ProyectItem {...item} key={index} />;
