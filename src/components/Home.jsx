@@ -33,7 +33,7 @@ const Home = () => {
           />
         </a>
         <a
-          href='https://www.linkedin.com/in/nestor-eduardo-mamani-pantoja/'
+          href='https://www.linkedin.com/in/nestoredduardo/'
           target='_blank'
           rel='noreferrer'>
           <img src={linkedinImage} alt='LinkedIn icon' />

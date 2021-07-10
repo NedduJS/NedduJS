@@ -11,7 +11,7 @@ const ContactMe = () => {
       <p className='contactme__title'>Contact me</p>
       <div className='contactme__icons'>
         <a
-          href='https://www.linkedin.com/in/nestor-eduardo-mamani-pantoja/'
+          href='https://www.linkedin.com/in/nestoredduardo/'
           target='_blank'
           rel='noreferrer'>
           <img src={linkedinImage} alt='LinkedIn icon' />

@@ -19,7 +19,7 @@ const Header = () => {
           Twitter
         </a>
         <a
-          href='https://www.linkedin.com/in/nestor-eduardo-mamani-pantoja/'
+          href='https://www.linkedin.com/in/nestoredduardo/'
           target='_blank'
           rel='noreferrer'
           // eslint-disable-next-line react/jsx-closing-bracket-location
