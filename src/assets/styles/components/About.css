@@ -1,9 +1,9 @@
 .about {
-  height: 80vh;
+  height: 75vh;
 }
 
 .aboutText {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .aboutTitle,
@@ -13,9 +13,21 @@
 
 .aboutTitle {
   width: fit-content;
-  font-size: 3.6rem;
+  font-size: 3.4rem;
   margin-bottom: 2rem;
   border-bottom: #3551d5 solid 1.5px;
+}
+
+@media (min-width: 360px) {
+  .about {
+    height: 80vh;
+  }
+  .aboutText {
+    font-size: 2rem;
+  }
+  .aboutTitle {
+    font-size: 3.6rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -23,6 +35,7 @@
     display: flex;
     justify-content: center;
     padding-top: 6rem;
+    height: 83vh;
   }
 
   .aboutBody {

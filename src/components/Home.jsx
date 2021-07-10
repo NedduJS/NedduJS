@@ -16,7 +16,7 @@ const Home = () => {
       <img className='fotoPerfil' src={photo} alt='' />
       <Redirec
         activeClass='active'
-        to='contactme'
+        to='contactme_button'
         className='contact_me'
         spy={true}
         smooth={true}
