@@ -20,6 +20,6 @@
 
 # ⚡ Get in touch:
 
-- Twitter: https://twitter.com/NedduJS
-- LinkedIn: https://www.linkedin.com/in/nestor-eduardo-mamani-pantoja/
+- Twitter: https://twitter.com/nestoredduardo
+- LinkedIn: https://www.linkedin.com/in/nestoredduardo/
 - Instagram: https://www.instagram.com/nestoredduardo/
