@@ -26,7 +26,10 @@ const Home = () => {
         Contact me
       </Redirec>
       <div className='redes'>
-        <a href='https://twitter.com/NedduJS' target='_blank' rel='noreferrer'>
+        <a
+          href='https://twitter.com/nestoredduardo'
+          target='_blank'
+          rel='noreferrer'>
           <img
             src='https://img.icons8.com/android/50/ffffff/twitter.png'
             alt='Twitter icon'

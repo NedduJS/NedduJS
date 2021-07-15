@@ -11,7 +11,7 @@ const Header = () => {
       </Link>
       <div className='footer__right'>
         <a
-          href='https://twitter.com/NedduJS'
+          href='https://twitter.com/nestoredduardo'
           target='_blank'
           rel='noreferrer'
           // eslint-disable-next-line react/jsx-closing-bracket-location
