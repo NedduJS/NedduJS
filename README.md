@@ -1,7 +1,7 @@
 <h1 align="center">
     Hi👋, I'm Nestor
 </h1>
-<div align="center"><b> Industrial Engineer by degree, Software developer by passion</b></div>
+<div align="center"><b> Industrial Engineer by degree, Software Developer by passion</b></div>
 
 - 🔥 Frontend developer using React
 - ✏️ Currently learning Data Science at Platzi
