@@ -14,7 +14,6 @@
 - React, Next.js
 - Python
 - Figma
-- Webpack, Babel
 
 # ⚡ Get in touch:
 
