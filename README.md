@@ -10,13 +10,11 @@
 
 # 🖥️ Technologies and Tools
 
-- JavaScript
-- React
-- Webpack
-- Express
-- HTML and CSS
+- JavaScript, Typescript
+- React, Next.js
 - Python
 - Figma
+- Webpack, Babel
 
 # ⚡ Get in touch:
 
