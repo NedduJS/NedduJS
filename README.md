@@ -3,7 +3,7 @@
 </h1>
 <div align="center"><b> Industrial Engineer by degree, Software Developer by passion</b></div>
 
-- 🔥 Frontend developer using React
+- 🔥 Software developer using Next.js
 - ✏️ Currently learning Data Science at Platzi
 - 💬 Sharing about tech in Twitter
 - 💪🏼 Lifelong learner
