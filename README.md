@@ -3,7 +3,7 @@
 </h1>
 <div align="center"><b> Industrial Engineer by degree, Software Developer by passion</b></div>
 
-- ✏️ Data Scientist in progress
+- 🚀 Full Stack Data Scientist in progress
 - 🔥 Software developer using Next.js
 - 💬 Sharing about tech in Twitter
 - 💪🏼 Lifelong learner
