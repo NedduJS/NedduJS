@@ -7,7 +7,7 @@
 - 🌱 Currently diving into web3 and Solana
 - ⚡ FUN FACT: I am divergent. I like learning different things (Web dev, Design, Data Science)
 
-# Technologies and Tools
+## Technologies and Tools
 
 <img align="left" style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />
 <img align="left" style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />  
@@ -18,7 +18,7 @@
 <br />
 <br />
 
-# Get in touch
+## Get in touch
 
 <a href="https://twitter.com/nestoredduardo" target="_blank"><img align="left" alt="nestoredduardo | Twitter" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/twitter/twitter.png" />
 <a/>
@@ -30,5 +30,5 @@
 <br />
     
 ---
-### GitHub Stats 🚀
+## GitHub Stats 🚀
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=nestoredduardo&show_icons=true&theme=vue-dark)](https://github.com/anuraghazra/github-readme-stats)
